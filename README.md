@@ -4,16 +4,16 @@ currently results in error at npm install of typings. See [issue #11](https://gi
 ** Steps from command line:**
 
   - Clone primeng-quickstart
-  ```bash
-    git clone https://github.com/primefaces/primeng-quickstart.git MyPrimeNg-Quickstart2
+  ```
+   git clone https://github.com/primefaces/primeng-quickstart.git MyPrimeNg-Quickstart2
   ```
   - Change directory to where the project was cloned and remove git files
-  ```bash
+  ```
     cd MyPrimeNg-QuickStart2
     rm -rf .git
   ```
   - Install npm packages
-  ```bash
+  ```
     npm install
   ```
 
