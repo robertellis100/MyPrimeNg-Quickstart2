@@ -1,11 +1,19 @@
-# PrimeNG
-Sample application to provide an example setup of an Angular2 project with PrimeNG.
+# Example use of PrimeNG Quick Start
+currently results in error at npm install of typings. See [issue #11](https://github.com/primefaces/primeng-quickstart/issues/11).
 
-![alt text](http://www.primefaces.org/images/primeng.png "PrimeNG")
-
-Execute the following commands to run the sample. A browser window pops up with http:\\\\localhost:3000 address.
-
+Steps from command line:
+1. Clone primeng-quickstart
+```bash
+  git clone https://github.com/primefaces/primeng-quickstart.git MyPrimeNg-Quickstart2
+ ```
+2. Change directory to where the project was cloned and remove git files
+```bash
+ cd MyPrimeNg-QuickStart2
+ rm -rf .git
 ```
+3. Install npm packages
+```bash
 npm install
-npm start
 ```
+
+
